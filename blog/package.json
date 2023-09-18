@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "blog-jj1lfc-dev",
+  "description": "blog.jj1lfc.dev Website built with Gatsby",
+  "version": "1.0.0",
+  "author": "Wataru Ohgai",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-minimal-blog",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
+    "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@lekoarts/gatsby-theme-minimal-blog": "^6",
+    "gatsby": "^5",
+    "gatsby-plugin-feed": "^5.12",
+    "gatsby-plugin-manifest": "^5.12",
+    "gatsby-plugin-sitemap": "^6.12",
+    "gatsby-plugin-webpack-statoscope": "^1.0",
+    "react": "^18.2",
+    "react-dom": "^18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17",
+    "@types/react": "^18.2",
+    "@types/react-dom": "^18.2",
+    "cross-env": "^7.0",
+    "typescript": "^5.2"
+  }
+}
+

@@ -1,0 +1,16 @@
+services:
+  jj1lfc-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jj1lfc-web
+    ports:
+      - "8000:8000"
+      - "9000:9000"
+    volumes:
+      - ./blog:/app
+    working_dir: /app
+    stdin_open: true
+    environment:
+      - NODE_ENV=development
+      - REACT_APP_ENV_PROD=false
