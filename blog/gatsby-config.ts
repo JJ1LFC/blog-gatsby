@@ -1,5 +1,5 @@
-import type { GatsbyConfig, PluginRef } from "gatsby";
-import "dotenv/config";
+import type { GatsbyConfig, PluginRef } from 'gatsby';
+import 'dotenv/config';
 
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
@@ -10,9 +10,9 @@ const config: GatsbyConfig = {
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
     siteTitle: `おるとのページ`,
     siteTitleAlt: `おるとのページ`,
-    siteHeadline: `おるとのページ`,
+    siteHeadline: `オタクが一個人の私見として有象無象を公開しています`,
     siteUrl: `https://blog.jj1lfc.dev`,
-    siteDescription: `ただの大学院生の戯言`,
+    siteDescription: `オタクが一個人の私見として有象無象を公開しています`,
     siteLanguage: `ja`,
     author: `@jj1lfc`,
   },
@@ -73,7 +73,7 @@ const config: GatsbyConfig = {
       options: {
         name: `おるとのページ`,
         short_name: `おるとのページ`,
-        description: `ただの大学院生の戯言`,
+        description: `ただのオタクの戯言`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
@@ -129,7 +129,7 @@ const config: GatsbyConfig = {
                   excerpt: post.excerpt,
                   url,
                   guid: url,
-                  custom_elements: [{ "content:encoded": content }],
+                  custom_elements: [{ 'content:encoded': content }],
                 };
               }),
             query: `{
