@@ -7,8 +7,6 @@ tags:
 banner: ./../../../../static/250330-hadegami-banner.jpg
 ---
 
-# 派手髪を支える技術
-
 こちらの記事にインスパイアされて書きました．
 
 [派手髪を支える技術 - 歩くパワースポットでありたい。](https://2323-code.hatenablog.com/entry/2025/03/29/232428)
